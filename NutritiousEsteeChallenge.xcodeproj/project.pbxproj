@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9AFF9192A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */; };
+		D9AFF91B2A5560F500BAE5FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF91A2A5560F500BAE5FD /* ContentView.swift */; };
+		D9AFF91D2A5560F600BAE5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */; };
+		D9AFF9202A5560F600BAE5FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AFF91F2A5560F600BAE5FD /* Preview Assets.xcassets */; };
+		D9AFF92B2A5560F600BAE5FD /* NutritiousEsteeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF92A2A5560F600BAE5FD /* NutritiousEsteeChallengeTests.swift */; };
+		D9AFF9362A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF9352A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9AFF9272A5560F600BAE5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AFF90D2A5560F500BAE5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AFF9142A5560F500BAE5FD;
+			remoteInfo = NutritiousEsteeChallenge;
+		};
+		D9AFF9322A5560F600BAE5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AFF90D2A5560F500BAE5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AFF9142A5560F500BAE5FD;
+			remoteInfo = NutritiousEsteeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9AFF9152A5560F500BAE5FD /* NutritiousEsteeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritiousEsteeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritiousEsteeChallengeApp.swift; sourceTree = "<group>"; };
+		D9AFF91A2A5560F500BAE5FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9AFF91F2A5560F600BAE5FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9AFF9212A5560F600BAE5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AFF9262A5560F600BAE5FD /* NutritiousEsteeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritiousEsteeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AFF92A2A5560F600BAE5FD /* NutritiousEsteeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritiousEsteeChallengeTests.swift; sourceTree = "<group>"; };
+		D9AFF92C2A5560F600BAE5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AFF9312A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritiousEsteeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AFF9352A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritiousEsteeChallengeUITests.swift; sourceTree = "<group>"; };
+		D9AFF9372A5560F600BAE5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9AFF9122A5560F500BAE5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFF9232A5560F600BAE5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFF92E2A5560F600BAE5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9AFF90C2A5560F500BAE5FD = {
+			isa = PBXGroup;
+			children = (
+				D9AFF9172A5560F500BAE5FD /* NutritiousEsteeChallenge */,
+				D9AFF9292A5560F600BAE5FD /* NutritiousEsteeChallengeTests */,
+				D9AFF9342A5560F600BAE5FD /* NutritiousEsteeChallengeUITests */,
+				D9AFF9162A5560F500BAE5FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9AFF9162A5560F500BAE5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFF9152A5560F500BAE5FD /* NutritiousEsteeChallenge.app */,
+				D9AFF9262A5560F600BAE5FD /* NutritiousEsteeChallengeTests.xctest */,
+				D9AFF9312A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9AFF9172A5560F500BAE5FD /* NutritiousEsteeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */,
+				D9AFF91A2A5560F500BAE5FD /* ContentView.swift */,
+				D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */,
+				D9AFF9212A5560F600BAE5FD /* Info.plist */,
+				D9AFF91E2A5560F600BAE5FD /* Preview Content */,
+			);
+			path = NutritiousEsteeChallenge;
+			sourceTree = "<group>";
+		};
+		D9AFF91E2A5560F600BAE5FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFF91F2A5560F600BAE5FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9AFF9292A5560F600BAE5FD /* NutritiousEsteeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFF92A2A5560F600BAE5FD /* NutritiousEsteeChallengeTests.swift */,
+				D9AFF92C2A5560F600BAE5FD /* Info.plist */,
+			);
+			path = NutritiousEsteeChallengeTests;
+			sourceTree = "<group>";
+		};
+		D9AFF9342A5560F600BAE5FD /* NutritiousEsteeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFF9352A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.swift */,
+				D9AFF9372A5560F600BAE5FD /* Info.plist */,
+			);
+			path = NutritiousEsteeChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9AFF9142A5560F500BAE5FD /* NutritiousEsteeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AFF93A2A5560F600BAE5FD /* Build configuration list for PBXNativeTarget "NutritiousEsteeChallenge" */;
+			buildPhases = (
+				D9AFF9112A5560F500BAE5FD /* Sources */,
+				D9AFF9122A5560F500BAE5FD /* Frameworks */,
+				D9AFF9132A5560F500BAE5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutritiousEsteeChallenge;
+			productName = NutritiousEsteeChallenge;
+			productReference = D9AFF9152A5560F500BAE5FD /* NutritiousEsteeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9AFF9252A5560F600BAE5FD /* NutritiousEsteeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AFF93D2A5560F600BAE5FD /* Build configuration list for PBXNativeTarget "NutritiousEsteeChallengeTests" */;
+			buildPhases = (
+				D9AFF9222A5560F600BAE5FD /* Sources */,
+				D9AFF9232A5560F600BAE5FD /* Frameworks */,
+				D9AFF9242A5560F600BAE5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AFF9282A5560F600BAE5FD /* PBXTargetDependency */,
+			);
+			name = NutritiousEsteeChallengeTests;
+			productName = NutritiousEsteeChallengeTests;
+			productReference = D9AFF9262A5560F600BAE5FD /* NutritiousEsteeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9AFF9302A5560F600BAE5FD /* NutritiousEsteeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AFF9402A5560F600BAE5FD /* Build configuration list for PBXNativeTarget "NutritiousEsteeChallengeUITests" */;
+			buildPhases = (
+				D9AFF92D2A5560F600BAE5FD /* Sources */,
+				D9AFF92E2A5560F600BAE5FD /* Frameworks */,
+				D9AFF92F2A5560F600BAE5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AFF9332A5560F600BAE5FD /* PBXTargetDependency */,
+			);
+			name = NutritiousEsteeChallengeUITests;
+			productName = NutritiousEsteeChallengeUITests;
+			productReference = D9AFF9312A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9AFF90D2A5560F500BAE5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D9AFF9142A5560F500BAE5FD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D9AFF9252A5560F600BAE5FD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D9AFF9142A5560F500BAE5FD;
+					};
+					D9AFF9302A5560F600BAE5FD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D9AFF9142A5560F500BAE5FD;
+					};
+				};
+			};
+			buildConfigurationList = D9AFF9102A5560F500BAE5FD /* Build configuration list for PBXProject "NutritiousEsteeChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9AFF90C2A5560F500BAE5FD;
+			productRefGroup = D9AFF9162A5560F500BAE5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9AFF9142A5560F500BAE5FD /* NutritiousEsteeChallenge */,
+				D9AFF9252A5560F600BAE5FD /* NutritiousEsteeChallengeTests */,
+				D9AFF9302A5560F600BAE5FD /* NutritiousEsteeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9AFF9132A5560F500BAE5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFF9202A5560F600BAE5FD /* Preview Assets.xcassets in Resources */,
+				D9AFF91D2A5560F600BAE5FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFF9242A5560F600BAE5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFF92F2A5560F600BAE5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9AFF9112A5560F500BAE5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFF91B2A5560F500BAE5FD /* ContentView.swift in Sources */,
+				D9AFF9192A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFF9222A5560F600BAE5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFF92B2A5560F600BAE5FD /* NutritiousEsteeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFF92D2A5560F600BAE5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFF9362A5560F600BAE5FD /* NutritiousEsteeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9AFF9282A5560F600BAE5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AFF9142A5560F500BAE5FD /* NutritiousEsteeChallenge */;
+			targetProxy = D9AFF9272A5560F600BAE5FD /* PBXContainerItemProxy */;
+		};
+		D9AFF9332A5560F600BAE5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AFF9142A5560F500BAE5FD /* NutritiousEsteeChallenge */;
+			targetProxy = D9AFF9322A5560F600BAE5FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9AFF9382A5560F600BAE5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9AFF9392A5560F600BAE5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9AFF93B2A5560F600BAE5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritiousEsteeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 5J5S27YHR6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NutritiousEsteeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josephineisjwara.NutritiousEsteeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9AFF93C2A5560F600BAE5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritiousEsteeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 5J5S27YHR6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NutritiousEsteeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josephineisjwara.NutritiousEsteeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9AFF93E2A5560F600BAE5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5S27YHR6;
+				INFOPLIST_FILE = NutritiousEsteeChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josephineisjwara.NutritiousEsteeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritiousEsteeChallenge.app/NutritiousEsteeChallenge";
+			};
+			name = Debug;
+		};
+		D9AFF93F2A5560F600BAE5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5S27YHR6;
+				INFOPLIST_FILE = NutritiousEsteeChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josephineisjwara.NutritiousEsteeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritiousEsteeChallenge.app/NutritiousEsteeChallenge";
+			};
+			name = Release;
+		};
+		D9AFF9412A5560F600BAE5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5S27YHR6;
+				INFOPLIST_FILE = NutritiousEsteeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josephineisjwara.NutritiousEsteeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritiousEsteeChallenge;
+			};
+			name = Debug;
+		};
+		D9AFF9422A5560F600BAE5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5S27YHR6;
+				INFOPLIST_FILE = NutritiousEsteeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josephineisjwara.NutritiousEsteeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritiousEsteeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9AFF9102A5560F500BAE5FD /* Build configuration list for PBXProject "NutritiousEsteeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AFF9382A5560F600BAE5FD /* Debug */,
+				D9AFF9392A5560F600BAE5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AFF93A2A5560F600BAE5FD /* Build configuration list for PBXNativeTarget "NutritiousEsteeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AFF93B2A5560F600BAE5FD /* Debug */,
+				D9AFF93C2A5560F600BAE5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AFF93D2A5560F600BAE5FD /* Build configuration list for PBXNativeTarget "NutritiousEsteeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AFF93E2A5560F600BAE5FD /* Debug */,
+				D9AFF93F2A5560F600BAE5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AFF9402A5560F600BAE5FD /* Build configuration list for PBXNativeTarget "NutritiousEsteeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AFF9412A5560F600BAE5FD /* Debug */,
+				D9AFF9422A5560F600BAE5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9AFF90D2A5560F500BAE5FD /* Project object */;
+}
