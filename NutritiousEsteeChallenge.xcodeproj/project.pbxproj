@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D97714212A58232B001C71E3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97714202A58232B001C71E3 /* Colors.xcassets */; };
 		D9AFF9192A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */; };
 		D9AFF91B2A5560F500BAE5FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF91A2A5560F500BAE5FD /* ContentView.swift */; };
 		D9AFF91D2A5560F600BAE5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D97714202A58232B001C71E3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D9AFF9152A5560F500BAE5FD /* NutritiousEsteeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritiousEsteeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritiousEsteeChallengeApp.swift; sourceTree = "<group>"; };
 		D9AFF91A2A5560F500BAE5FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */,
 				D9AFF91A2A5560F500BAE5FD /* ContentView.swift */,
 				D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */,
+				D97714202A58232B001C71E3 /* Colors.xcassets */,
 				D9AFF9212A5560F600BAE5FD /* Info.plist */,
 				D9AFF91E2A5560F600BAE5FD /* Preview Content */,
 			);
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97714212A58232B001C71E3 /* Colors.xcassets in Resources */,
 				D9AFF9202A5560F600BAE5FD /* Preview Assets.xcassets in Resources */,
 				D9AFF91D2A5560F600BAE5FD /* Assets.xcassets in Resources */,
 			);
