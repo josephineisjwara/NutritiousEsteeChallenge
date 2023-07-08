@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D921FD442A598FA800C1418C /* CampaignVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D921FD432A598FA800C1418C /* CampaignVideo.mp4 */; };
 		D97714212A58232B001C71E3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97714202A58232B001C71E3 /* Colors.xcassets */; };
 		D9AFF9192A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */; };
-		D9AFF91B2A5560F500BAE5FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF91A2A5560F500BAE5FD /* ContentView.swift */; };
+		D9AFF91B2A5560F500BAE5FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF91A2A5560F500BAE5FD /* HomeView.swift */; };
 		D9AFF91D2A5560F600BAE5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */; };
 		D9AFF9202A5560F600BAE5FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AFF91F2A5560F600BAE5FD /* Preview Assets.xcassets */; };
 		D9AFF92B2A5560F600BAE5FD /* NutritiousEsteeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFF92A2A5560F600BAE5FD /* NutritiousEsteeChallengeTests.swift */; };
@@ -34,10 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D921FD432A598FA800C1418C /* CampaignVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = CampaignVideo.mp4; path = ../../../Downloads/CampaignVideo.mp4; sourceTree = "<group>"; };
 		D97714202A58232B001C71E3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D9AFF9152A5560F500BAE5FD /* NutritiousEsteeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritiousEsteeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritiousEsteeChallengeApp.swift; sourceTree = "<group>"; };
-		D9AFF91A2A5560F500BAE5FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9AFF91A2A5560F500BAE5FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AFF91F2A5560F600BAE5FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9AFF9212A5560F600BAE5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		D9AFF90C2A5560F500BAE5FD = {
 			isa = PBXGroup;
 			children = (
+				D921FD432A598FA800C1418C /* CampaignVideo.mp4 */,
 				D9AFF9172A5560F500BAE5FD /* NutritiousEsteeChallenge */,
 				D9AFF9292A5560F600BAE5FD /* NutritiousEsteeChallengeTests */,
 				D9AFF9342A5560F600BAE5FD /* NutritiousEsteeChallengeUITests */,
@@ -98,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				D9AFF9182A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift */,
-				D9AFF91A2A5560F500BAE5FD /* ContentView.swift */,
+				D9AFF91A2A5560F500BAE5FD /* HomeView.swift */,
 				D9AFF91C2A5560F600BAE5FD /* Assets.xcassets */,
 				D97714202A58232B001C71E3 /* Colors.xcassets */,
 				D9AFF9212A5560F600BAE5FD /* Info.plist */,
@@ -238,6 +241,7 @@
 			files = (
 				D97714212A58232B001C71E3 /* Colors.xcassets in Resources */,
 				D9AFF9202A5560F600BAE5FD /* Preview Assets.xcassets in Resources */,
+				D921FD442A598FA800C1418C /* CampaignVideo.mp4 in Resources */,
 				D9AFF91D2A5560F600BAE5FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9AFF91B2A5560F500BAE5FD /* ContentView.swift in Sources */,
+				D9AFF91B2A5560F500BAE5FD /* HomeView.swift in Sources */,
 				D9AFF9192A5560F500BAE5FD /* NutritiousEsteeChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
